@@ -10,7 +10,7 @@
 - Company works/updated [but gave error]
   - **[fixed]** didn't load ```return load(company.getCompanyID());``` in companyService / update()
   - [new issue] wierd messenger error after update get processed
-  - **[no fix for reason]** company.isRemoved has a value of *true/false* and validateCreate() is validating number Integer() instead of true/false {{probably the issue?}}
+  ```- **[no fix for reason]** company.isRemoved has a value of *true/false* and validateCreate() is validating number Integer() instead of true/false {{probably the issue?}}```
 ---
 ## User Management ##
 - add "Logout" to navbar
