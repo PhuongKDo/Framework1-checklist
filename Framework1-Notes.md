@@ -6,6 +6,7 @@
 - User remove haven't implemented
 - Employee update error [session cookie/authcookie error]
 - Company create suddenly breaks
+- Company updated [but gave error]
 ---
 ## User Management ##
 - add "Logout" to navbar
