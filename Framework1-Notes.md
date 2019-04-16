@@ -19,7 +19,7 @@
 - add following to [ controllers / main.cfc  ~  processLogin() ] to check admin role
 - ![checkAdmin](https://user-images.githubusercontent.com/46738881/56229531-bce76c00-603f-11e9-9df1-d2510f14e0ba.PNG)
 - add following to userService.cfc
-![checkAdmin2](https://user-images.githubusercontent.com/46738881/56230599-3f712b00-6042-11e9-9d3d-ae9e97bbc0b9.PNG)
+- ![checkAdmin2](https://user-images.githubusercontent.com/46738881/56230599-3f712b00-6042-11e9-9d3d-ae9e97bbc0b9.PNG)
 ---  
 #### Page that got used/implemented ####
 - *Controller / userManagement*
