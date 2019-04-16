@@ -13,12 +13,14 @@
   ```- **[no fix for reason]** company.isRemoved has a value of *true/false* and validateCreate() is validating number Integer() instead of true/false {{probably the issue?}}```
 ---
 ## User Management ##
-- add "Logout" to navbar
-- hash password
-- create User
-- show User detail
-- update User
-- include users: ```[Kevin/Barnes, admin/Admin, your Firstname/Lastname]```
+- ☑ add "Logout" to navbar
+- ☑ hash password
+- ☑ list User
+- ☑ create User
+- ☑ show User detail
+- ☑ update User
+- remove User [not implemented since not needed to check admin role]
+- ☑ include users: ```[Kevin/Barnes, admin/Admin, your Firstname/Lastname]```
 ---
 #### Check Admin Role ####
 - add following to [ controllers / main.cfc  ~  processLogin() ] to check admin role
@@ -38,10 +40,12 @@
 - *Views / userManagement / userUpdate.cfm* 
 ---  
 ## Employee Management ##
-- list employees 
-- show employee details
-- create new employee
-- remove employee
+- ☑ list all employees 
+- ☑ show employee details
+- ☑ create new employee
+- ☑ remove employee
+- update employee [getting wierd session error]
+- ☑ *add a dropdown list of company for user to pick from*
 ---  
 #### Page that got used/implemented ####
 - *Controller / employeeManagement*
@@ -53,13 +57,13 @@
 - *Views / employeeManagement / employeeUpdate.cfm*
 ---    
 ## Company Management ##
-- list only active companies
-- show only employee(s) that works for the particular company
-- show company detail [had to make a button instead of clickable row due to modal]
-- in modal, user can update employee information, href leads back to update page
-- updated company
-- soft delete company
-- show company details
+- ☑ list only active companies
+- ☑ show only employee(s) that works for the particular company
+- ☑ show company detail [had to make a button instead of clickable row due to modal]
+- ☑ in modal, user can update employee information, href leads back to update page
+- ☑ updated company
+- ☑ soft delete company
+- ☑ show company details
 ---
 #### Soft Delete ####
 - implement "Soft Delete" instead of delete by setting a flag (isRemoved)
