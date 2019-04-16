@@ -9,7 +9,7 @@
   - [solution: need to add ```rc.isRemoved = false;"``` to processCompanyCreate() after adding the flag]
 - Company works/updated [but gave error]
   - **[fixed]** didn't load ```return load(company.getCompanyID());``` in companyService / update()
-  - [new issue] wierd messenger error after update get processed
+  - **[new issue]** wierd messenger error after update get processed
   ```- **[no fix for reason]** company.isRemoved has a value of *true/false* and validateCreate() is validating number Integer() instead of true/false {{probably the issue?}}```
 ---
 ## User Management ##
