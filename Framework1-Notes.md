@@ -2,8 +2,7 @@
 ---
 **Current Issues**
 - Goes to "password" page and not "index"
-- User update haven't implemented
-- User remove haven't implemented
+- User remove haven't implemented since not needed to check admin role
 - Employee update error [session cookie/authcookie error]
 - **[fixed]** Company create suddenly breaks 
   - [solution: need to add ```rc.isRemoved = false;"``` to processCompanyCreate() after adding the flag]
