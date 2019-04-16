@@ -69,4 +69,4 @@
 - *Views / companyManagement / companyUpdate.cfm*
 ---
 #### Routes used/implemented ####
-- ![routes](https://user-images.githubusercontent.com/46738881/56236365-0d19fa80-604f-11e9-875b-7a9e6f0e202c.PNG)
+![routes](https://user-images.githubusercontent.com/46738881/56236365-0d19fa80-604f-11e9-875b-7a9e6f0e202c.PNG)
