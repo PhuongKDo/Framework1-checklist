@@ -5,7 +5,8 @@
 - User update haven't implemented
 - User remove haven't implemented
 - Employee update error [session cookie/authcookie error]
-- Company create suddenly breaks [*fixed:* need to add "rc.isRemoved = false;" to processCompanyCreate() after adding the flag]
+- **[fixed]** Company create suddenly breaks 
+  - [solution: need to add "rc.isRemoved = false;" to processCompanyCreate() after adding the flag]
 - Company updated [but gave error]
 ---
 ## User Management ##
