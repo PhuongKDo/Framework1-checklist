@@ -1,4 +1,4 @@
-     # Framework 1 Checklist #
+# Framework 1 Checklist #
 ---
 **Current Issues**
 - Goes to "password" page and not "index"
@@ -9,6 +9,7 @@
   - [solution: need to add ```rc.isRemoved = false;"``` to processCompanyCreate() after adding the flag]
 - **[fixed]** Company works/updated [but gave error]
   - didn't load ```return load(company.getCompanyID());``` in companyService / update()
+  - [new issue] wierd messenger error after update get processed
 ---
 ## User Management ##
 - add "Logout" to navbar
