@@ -7,8 +7,8 @@
 - Employee update error [session cookie/authcookie error]
 - **[fixed]** Company create suddenly breaks 
   - [solution: need to add ```rc.isRemoved = false;"``` to processCompanyCreate() after adding the flag]
-- **[fixed]** Company works/updated [but gave error]
-  - didn't load ```return load(company.getCompanyID());``` in companyService / update()
+- Company works/updated [but gave error]
+  - **[fixed]** didn't load ```return load(company.getCompanyID());``` in companyService / update()
   - [new issue] wierd messenger error after update get processed
 ---
 ## User Management ##
