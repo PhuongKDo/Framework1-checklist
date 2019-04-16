@@ -44,7 +44,7 @@
 - ☑ show employee details
 - ☑ create new employee
 - ☑ remove employee
-- update employee [getting wierd session error]
+- ❌ update employee [getting wierd session error]
 - ☑ *add a dropdown list of company for user to pick from*
 ---  
 #### Page that got used/implemented ####
