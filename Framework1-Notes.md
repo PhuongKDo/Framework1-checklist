@@ -55,7 +55,9 @@
 - show only employee(s) that works for the particular company
 - show company detail [had to make a button instead of clickable row due to modal]
 - in modal, user can update employee information, href leads back to update page
-- *company updated [but gave error]*
+- updated company
+- soft delete company
+- show company details
 ---
 #### Soft Delete ####
 - implement "Soft Delete" instead of delete by setting a flag (isRemoved)
