@@ -8,4 +8,3 @@
 
   *controller / main.cfc*
     - added following to check admin role
-    ![test1](img/checkAdmin.png)
