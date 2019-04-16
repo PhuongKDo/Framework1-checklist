@@ -16,7 +16,7 @@
 - create User
 - show User detail
 - update User
-- include users: [Kevin/Barnes, admin/Admin, your Firstname/Lastname] 
+- include users: ```[Kevin/Barnes, admin/Admin, your Firstname/Lastname]```
 ---
 #### Check Admin Role ####
 - add following to [ controllers / main.cfc  ~  processLogin() ] to check admin role
