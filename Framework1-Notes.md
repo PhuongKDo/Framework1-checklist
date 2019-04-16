@@ -64,6 +64,10 @@
 - implement "Soft Delete" instead of delete by setting a flag (isRemoved)
 ![softDelete](https://user-images.githubusercontent.com/46738881/56235006-181f5b80-604c-11e9-8c63-588ccba939e5.PNG)
 ---
+#### Modal ####
+- get all employees that work for a specific company
+![modal](https://user-images.githubusercontent.com/46738881/56240665-ad751c80-6059-11e9-9052-b4160cf91e90.PNG)
+---
 #### Page that got used/implemented ####
 - *Controller / companyManagement*
 - *Model / domain / company.cfc*
