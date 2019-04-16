@@ -1,13 +1,14 @@
 # Framework 1 Checklist #
 ---
-**Issues**
+**Current Issues**
 - Goes to "password" page and not "index"
 - User update haven't implemented
 - User remove haven't implemented
 - Employee update error [session cookie/authcookie error]
 - **[fixed]** Company create suddenly breaks 
   - [solution: need to add "rc.isRemoved = false;" to processCompanyCreate() after adding the flag]
-- Company works/updated [but gave error]
+- **[fixed]** Company works/updated [but gave error]
+  - didn't load ```return load(company.getCompanyID());``` in companyService / update()
 ---
 ## User Management ##
 - add "Logout" to navbar
