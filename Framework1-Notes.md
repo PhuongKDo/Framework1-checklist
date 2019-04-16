@@ -7,7 +7,7 @@
 - Employee update error [session cookie/authcookie error]
 - **[fixed]** Company create suddenly breaks 
   - [solution: need to add "rc.isRemoved = false;" to processCompanyCreate() after adding the flag]
-- Company updated [but gave error]
+- Company works/updated [but gave error]
 ---
 ## User Management ##
 - add "Logout" to navbar
