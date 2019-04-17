@@ -46,6 +46,9 @@
 - ☑ remove employee
 - ☑  update employee [getting wierd session error] 
 - ☑ *add a dropdown list of company for user to pick from*
+![1](https://user-images.githubusercontent.com/46738881/56295236-14461480-60f2-11e9-8bb4-746315b80d95.PNG)
+![2](https://user-images.githubusercontent.com/46738881/56295395-625b1800-60f2-11e9-82c2-f2f974cb1a4f.PNG)
+
 ---  
 #### Page that got used/implemented ####
 - *Controller / employeeManagement*
@@ -60,7 +63,7 @@
 - ☑ list only active companies
 - ☑ show only employee(s) that works for the particular company
 - ☑ show company detail [had to make a button instead of clickable row due to modal]
-- ☑ in modal, user can update employee information, href leads back to update page
+- ☑ in modal, user can update employee information, update link leads back to update page
 - ☑ updated company
 - ☑ soft delete company
 - ☑ show company details
