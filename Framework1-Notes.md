@@ -3,7 +3,8 @@
 **Current Issues**
 - Goes to "password" page and not "index"
 - User remove haven't implemented since not needed to check admin role
-- Employee update error [session cookie/authcookie error]
+- **[fixed]** Employee update error [session cookie/authcookie error]
+   - [solution: incorrect routing]
 ![seessionError](https://user-images.githubusercontent.com/46738881/56240998-59b70300-605a-11e9-910f-bb40bbd46f25.PNG)
 - **[fixed]** Company create suddenly breaks 
   - [solution: need to add ```rc.isRemoved = false;"``` to processCompanyCreate() after adding the flag]
@@ -44,7 +45,7 @@
 - ☑ show employee details
 - ☑ create new employee
 - ☑ remove employee
-- ❌ update employee [getting wierd session error]
+- ☑  update employee [getting wierd session error] 
 - ☑ *add a dropdown list of company for user to pick from*
 ---  
 #### Page that got used/implemented ####
