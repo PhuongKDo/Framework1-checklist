@@ -12,6 +12,10 @@
   - **[new issue]** wierd messenger error after update get processed
   ```- **[no fix for reason]** company.isRemoved has a value of *true/false* and validateCreate() is validating number Integer() instead of true/false {{probably the issue?}}```
 ---
+# Date Format #
+![1](https://user-images.githubusercontent.com/46738881/56295691-c54caf00-60f2-11e9-9c5d-5fb0d845d457.PNG)
+![2](https://user-images.githubusercontent.com/46738881/56295756-d990ac00-60f2-11e9-9379-22610da61213.PNG)
+---
 ## User Management ##
 - ☑ add "Logout" to navbar
 - ☑ hash password
@@ -87,3 +91,4 @@
 ---
 # Routes #
 ![1](https://user-images.githubusercontent.com/46738881/56293089-0e4e3480-60ee-11e9-92a7-e5d3565723d7.PNG)
+---
